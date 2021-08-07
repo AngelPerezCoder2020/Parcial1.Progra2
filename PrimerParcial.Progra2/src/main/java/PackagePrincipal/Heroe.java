@@ -1,7 +1,7 @@
 package PackagePrincipal;
 
 public class Heroe extends Villano{
-    protected Mueble[] mochila = new Mueble[3];
+    private Mueble[] mochila = new Mueble[3];
     
     public Mueble[] getMochila(){
         return mochila;

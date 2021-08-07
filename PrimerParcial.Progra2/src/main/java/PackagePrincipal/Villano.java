@@ -1,8 +1,8 @@
 package PackagePrincipal;
 
 public class Villano extends Fuente{
-    protected int vidas;
-    protected int ofensiva;
+    private int vidas;
+    private int ofensiva;
 
     public int getVida() {
         return vidas;
